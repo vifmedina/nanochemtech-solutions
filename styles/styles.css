@@ -33,7 +33,7 @@ body {
 
 /* Header Config */
 .home {
-    background-image: url('/images/header-image.jpg');
+    background-image: url("../images/header-image.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
