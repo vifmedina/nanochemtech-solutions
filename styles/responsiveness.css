@@ -1,5 +1,17 @@
 @charset "UTF-8";
 
+@media (max-width: 1330px) {
+    /* Main Config */
+    .main-container-info {
+        width: 90%;
+    }
+
+    /* Footer Config */
+    .footer-container-info {
+        width: 80%;
+    }
+}
+
 @media (max-width: 1100px) {
     /* Header Config */
     .home h1 {
@@ -15,12 +27,16 @@
     }
 
     /* Main Config */
+    .main-container {
+        margin-top: 60px;
+    }
+
     .main-container h3 {
         font-size: 1.6em;
     }
 
     .main-container-info {
-        width: 90%;
+        width: 85%;
     }
 
     .main-container-info img {
@@ -29,7 +45,8 @@
     }
 
     .info {
-        width: 400px;
+        width: 376px;
+        height: 176px;
     }
 
     .info h4 {
@@ -47,9 +64,20 @@
 
     .footer-container-info {
         width: 90%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-container-info iframe {
+        border-radius: 20px;
+        width: 500px;
+        height: 250px;
     }
 
     .mensagem {
+        margin-top: 30px;
+        text-align: center;
         width: 50%;
     }
 
@@ -58,6 +86,19 @@
     }
 
     .mensagem p {
+        font-size: 1.2em;
+    }
+
+    .horario {
+        text-align: center;
+        width: 50%;
+    }
+
+    .horario h4 {
+        font-size: 1.3em;
+    }
+
+    .horario p {
         font-size: 1.2em;
     }
 }
@@ -115,11 +156,12 @@
     /* Main Config */
     .main-container h3 {
         font-size: 1.5em;
+        margin-bottom: 50px;
     }
 
     .main-container-info img {
-        width: 315,7894736842105px;
-        height: 157,8947368421053px;
+        width: 374px;
+        height: 187px;
     }
 
     .info {
@@ -140,12 +182,21 @@
         width: 90%;
     }
 
+    .footer-container-info iframe {
+        width: 350px;
+        height: 200px;
+    }
+
     .mensagem {
         width: 100%;
         margin-bottom: 30px;
     }
 
-    .footer-container p {
+    .horario {
+        width: 100%;
+    }
+
+    .copy-info p {
         font-size: 0.7;
     }
 }

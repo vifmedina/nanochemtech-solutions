@@ -33,7 +33,7 @@ body {
 
 /* Header Config */
 .home {
-    background-image: url(images/header-image.jpg);
+    background-image: url(/images/header-image.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -109,7 +109,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 580px;
+    width: 576px;
     background-color: aliceblue;
     border-radius: 15px;
     border: 2px solid rgb(225, 240, 252);
