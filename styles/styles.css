@@ -8,6 +8,29 @@
     font-family: 'Raleway';
 }
 
+body {
+    background-color: rgb(250, 251, 252);
+}
+
+/* Set Barra de Rolagem */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(36, 36, 36);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(59, 100, 134);
+    width: 8px;
+}
+
 /* Header Config */
 .home {
     background-image: url(/images/header-image.jpg);
@@ -52,24 +75,20 @@
 
 .home a:hover {
     background-color: white;
-    color: black;
+    color: rgb(59, 100, 134);
     transition: 0.6s;
 }
 
 /* Main Config */
-body {
-    background-color: rgba(240, 240, 240, 0.137);
-}
-
 .main-container {
     margin-top: 90px;
 }
 
 .main-container h3 {
     text-align: center;
-    text-transform: uppercase;
     margin-bottom: 70px;
     font-size: 2em;
+    color: rgb(59, 100, 134);
 }
 
 .main-container-info {
@@ -90,13 +109,18 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 600px;
+    width: 580px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    border: 2px solid rgb(225, 240, 252);
+    padding: 10px;
 }
 
 .info h4 {
     margin-bottom: 25px;
     font-family: 500;
     font-size: 1.5em;
+    color: rgb(59, 100, 134);
 }
 
 .info p {
@@ -104,13 +128,14 @@ body {
     line-height: 1.5em;
     font-weight: 500;
     font-size: 1.3em;
+    color: rgb(63, 63, 63);
 }
 
 /* Footer Config */
 .footer-container {
-    padding-top: 80px;
+    padding-top: 70px;
     margin: auto;
-    background-color: rgba(211, 211, 211, 0.445);
+    background-color: rgb(225, 240, 252);
 }
 
 .footer-container h3 {
@@ -118,60 +143,86 @@ body {
     text-transform: uppercase;
     margin-bottom: 20px;
     font-size: 1.5em;
+    color: rgb(59, 100, 134);
+}
+
+.social-medias {
+    text-align: center;
+    margin: 20px 0px 40px 0px;
+}
+
+.social-medias a {
+    margin: 0px 10px 0px 10px;
+}
+
+.social-medias a img {
+    width: 50px;
+    height: 50px;
 }
 
 .footer-container-info {
     display: flex;
     margin: auto;
-    width: 70%;
+    width: 60%;
     flex-direction: row;
     justify-content: space-evenly;
     margin-bottom: 80px;
 }
 
-.mensagem {
-    width: 60%;
-    margin: auto;
-    text-align: center;
+.footer-container-info iframe {
+    border-radius: 20px;
+    width: 1200px;
+    height: 300px;
+}
+
+.footer-container-cont {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+}
+
+.mensagem {
+    width: 80%;
+    text-align: left;
 }
 
 .mensagem h4 {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     font-family: 500;
     font-size: 1.3em;
+    color: rgb(59, 100, 134);
 }
 
 .mensagem p {
-    text-align: center;
+    text-align: left;
     line-height: 1.5em;
     font-weight: 500;
     font-size: 1.3em;
+    color: rgb(36, 36, 36);
 }
 
 .horario {
-    text-align: center;
+    margin-top: 30px;
+    width: 80%;
 }
 
 .horario h4 {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    font-family: 500;
     font-size: 1.3em;
+    color: rgb(59, 100, 134);
 }
 
-.horario ul {
-    line-height: 1.7em;
-    list-style-type: none;
-}
-
-.horario ul li {
+.horario p {
+    text-align: left;
+    line-height: 1.5em;
     font-weight: 500;
-    font-size: 1.1em;
+    font-size: 1.3em;
+    color: rgb(36, 36, 36);
 }
 
-.footer-container p {
+.copy-info p {
     font-size: 0.9;
     text-align: center;
 }
