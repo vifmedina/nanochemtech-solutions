@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+@media (max-width: 1100px) {
+    /* Header Config */
+    .home h1 {
+        width: 90%;
+        text-align: center;
+        font-size: 4em;
+    } 
+
+    .home h2 {
+        width: 90%;
+        text-align: center;
+        font-size: 2em;
+    }
+
+    /* Main Config */
+    .main-container h3 {
+        font-size: 1.6em;
+    }
+
+    .main-container-info {
+        width: 90%;
+    }
+
+    .main-container-info img {
+        width: 400px;
+        height: 200px;
+    }
+
+    .info {
+        width: 400px;
+    }
+
+    .info h4 {
+        font-size: 1.2em;
+    }
+
+    .info p {
+        font-size: 1.1em;
+    }
+
+    /* Footer Config */
+    .footer-container h3 {
+        font-size: 1.4em;
+    }
+
+    .footer-container-info {
+        width: 90%;
+    }
+
+    .mensagem {
+        width: 50%;
+    }
+
+    .mensagem h4 {
+        font-size: 1.3em;
+    }
+
+    .mensagem p {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 900px) {
+    /* Main Config */
+    .main-container {
+        margin-top: 50px;
+    }
+
+    .main-container-info {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .main-container-info img {
+        margin-bottom: 30px;
+    }
+
+    #medium {
+        display: flex;
+    }
+
+    #medium img {
+        order: 1;
+    }
+
+    #medium .info {
+        order: 2;
+    }
+
+    /* Footer Config */
+    .footer-container {
+        padding-top: 50px;
+    }
+
+    .footer-container h3 {
+        font-size: 1.3em;
+    }
+}
+
+@media (max-width: 576px) {
+    /* Header Config */
+    .home h1 {
+        font-size: 3em;
+        margin-bottom: 10px;
+    }
+
+    .home h2 {
+        font-size: 1.5em;
+    }
+
+    /* Main Config */
+    .main-container h3 {
+        font-size: 1.5em;
+    }
+
+    .main-container-info img {
+        width: 315,7894736842105px;
+        height: 157,8947368421053px;
+    }
+
+    .info {
+        width: 350px;
+    }
+
+    .info h4 {
+        font-size: 1.3em;
+    }
+    
+    .info p {
+        font-size: 1.1em;
+    }
+
+    /* Footer Config */
+    .footer-container-info {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .mensagem {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .footer-container p {
+        font-size: 0.7;
+    }
+}
