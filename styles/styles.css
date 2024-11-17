@@ -163,6 +163,7 @@ body {
 
 .social-medias a img:hover {
     box-shadow: 1px 1px 10px rgba(36, 36, 36, 0.425);
+    transition: 0.4s;
 }
 
 .footer-container-info {
