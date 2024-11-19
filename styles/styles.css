@@ -86,9 +86,20 @@ body {
 
 .main-container h3 {
     text-align: center;
-    margin-bottom: 70px;
+    margin-bottom: 20px;
     font-size: 2em;
     color: rgb(59, 100, 134);
+}
+
+.nanochemtech-info {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    line-height: 1.5em;
+    font-weight: 500;
+    font-size: 1.3em;
+    color: rgb(63, 63, 63);
+    margin-bottom: 70px;
 }
 
 .main-container-info {
@@ -124,11 +135,33 @@ body {
 }
 
 .info p {
+    width: 95%;
     text-align: center;
     line-height: 1.5em;
     font-weight: 500;
     font-size: 1.3em;
     color: rgb(63, 63, 63);
+}
+
+.lab {
+    display: flex;
+    flex-direction: column;
+}
+
+.lab-images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.lab-images img {
+    width: 744.7272727272727px;
+    height: 440.9090909090909px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.164);
 }
 
 /* Footer Config */

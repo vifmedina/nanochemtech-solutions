@@ -1,9 +1,23 @@
 @charset "UTF-8";
 
+@media (max-width: 1560px) {
+    /* Main Config */
+    .lab-images img {
+        width: 585.1428571428571px;
+        height: 346.4285714285714px;
+    }
+}
+
 @media (max-width: 1330px) {
     /* Main Config */
     .main-container-info {
         width: 90%;
+    }
+
+    .lab-images img {
+        width: 512px;
+        height: 303.125px;
+        margin-bottom: 20px;
     }
 
     /* Footer Config */
@@ -35,6 +49,10 @@
         font-size: 1.6em;
     }
 
+    .nanochemtech-info {
+        font-size: 1.2em;
+    }
+
     .main-container-info {
         width: 85%;
     }
@@ -56,6 +74,19 @@
     .info p {
         font-size: 1.1em;
     }
+
+    .lab-images {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .lab-images img {
+        width: 585.1428571428571px;
+        height: 346.4285714285714px;
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+
 
     /* Footer Config */
     .footer-container h3 {
@@ -109,6 +140,14 @@
         margin-top: 50px;
     }
 
+    .main-container h3 {
+        font-size: 1.5em;
+    }
+
+    .nanochemtech-info {
+        font-size: 1.2em;
+    }
+
     .main-container-info {
         flex-direction: column;
         display: flex;
@@ -130,6 +169,18 @@
 
     #medium .info {
         order: 2;
+    }
+
+    .lab-images {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .lab-images img {
+        width: 455.1111111111111px;
+        height: 269.4444444444444px;
+        margin: 0px;
+        margin-bottom: 20px;
     }
 
     /* Footer Config */
@@ -156,7 +207,13 @@
     /* Main Config */
     .main-container h3 {
         font-size: 1.5em;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
+    }
+
+    .nanochemtech-info {
+        width: 90%;
+        font-size: 1.1em;
+        margin-bottom: 40px;
     }
 
     .main-container-info img {
@@ -174,6 +231,18 @@
     
     .info p {
         font-size: 1.1em;
+    }
+
+    .lab-images {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .lab-images img {
+        width: 372.3636363636364px;
+        height: 220.4545454545455px;
+        margin: 0px;
+        margin-bottom: 15px;
     }
 
     /* Footer Config */
