@@ -280,3 +280,17 @@
         font-size: 0.7;
     }
 }
+
+@media (max-width: 517px) {
+    /* Main Config */
+    .partners img {
+        height: 30px;
+    }
+}
+
+@media (max-width: 403px) {
+    /* Main Config */
+    .partners img {
+        height: 20px;
+    }
+}
