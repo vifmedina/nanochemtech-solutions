@@ -87,6 +87,9 @@
         margin-bottom: 20px;
     }
 
+    .partners img {
+        height: 50px;
+    }
 
     /* Footer Config */
     .footer-container h3 {
@@ -183,6 +186,10 @@
         margin-bottom: 20px;
     }
 
+    .partners img {
+        height: 40px;
+    }
+
     /* Footer Config */
     .footer-container {
         padding-top: 50px;
@@ -243,6 +250,10 @@
         height: 220.4545454545455px;
         margin: 0px;
         margin-bottom: 15px;
+    }
+
+    .partners img {
+        height: 40px;
     }
 
     /* Footer Config */
