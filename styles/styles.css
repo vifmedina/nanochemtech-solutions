@@ -172,6 +172,7 @@ body {
 .team {
     width: 80%;
     margin: auto;
+    margin-bottom: 20px;
 }
 
 .team h3 {
@@ -219,6 +220,47 @@ body {
     font-weight: 500;
     font-size: 1.1em;
     text-align: center;
+}
+
+.partners {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(225, 240, 252);
+}
+
+.partners-group {
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+    width: 100%;
+    animation: scroll 20s linear infinite;
+}
+
+.partners-group img {
+    margin-right: 30px;
+    height: 70px;
+    width: auto;
+}
+
+@keyframes scroll {
+    0% {
+      transform: translateX(100%); /* Começa à direita */
+    }
+    100% {
+      transform: translateX(-100%); /* Vai até a esquerda */
+    }
+}
+
+.products {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.products p {
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: 500;
+    color: rgb(36, 36, 36);
 }
 
 /* Footer Config */
