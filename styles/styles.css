@@ -231,8 +231,8 @@ body {
 .partners-group {
     display: flex;
     justify-content: flex-start;
-    overflow: hidden;
     width: 100%;
+    overflow: hidden;
     animation: scroll 20s linear infinite;
 }
 
@@ -244,10 +244,10 @@ body {
 
 @keyframes scroll {
     0% {
-      transform: translateX(100%); /* Começa à direita */
+        transform: translateX(100%);
     }
     100% {
-      transform: translateX(-100%); /* Vai até a esquerda */
+        transform: translateX(-100%);
     }
 }
 
