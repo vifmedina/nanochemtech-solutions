@@ -211,7 +211,8 @@ body {
     margin-top: 10px;
     margin-bottom: 15px;
     color: rgb(59, 100, 134);
-    font-size: 1.2em;
+    font-size: 1.1em;
+    text-align: center;
 }
 
 .cont-team-images p {
