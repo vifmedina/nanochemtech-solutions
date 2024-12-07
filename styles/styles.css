@@ -233,30 +233,32 @@ body {
 }
 
 .partners-group {
-    display: flex;
-    justify-content: flex-start;
-    height: 70px;
-    width: 100%;
     overflow: hidden;
-    animation: mover 20s linear infinite;
+    width: 100%;
+}
+
+.image-wrapper {
+    display: flex;
+    flex-shrink: 0;
+    width: max-content;
+    animation: scroll-images 15s linear infinite;
 }
 
 .partners-group img {
-    margin-right: 15px;
+    width: 200px;
     height: auto;
-    width: auto;
-    flex-shrink: 0;
+    margin-right: 15px;
+    padding-bottom: 20px;
 }
 
-@keyframes mover {
+@keyframes scroll-images {
     0% {
         transform: translateX(100%);
     }
     100% {
         transform: translateX(-100%);
+    }
 }
-}
-
 
 .products {
     margin-top: 20px;
