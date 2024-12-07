@@ -223,6 +223,10 @@
         margin-bottom: 40px;
     }
 
+    .main-container-info {
+        width: 100%;
+    }
+
     .main-container-info img {
         width: 374px;
         height: 187px;
