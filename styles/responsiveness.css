@@ -20,7 +20,7 @@
         margin-bottom: 20px;
     }
 
-    .partners-logos img {
+    .partners-group {
         height: 60px;
     }
 
@@ -89,10 +89,6 @@
         height: 346.4285714285714px;
         margin: 0px;
         margin-bottom: 20px;
-    }
-
-    .partners-logos img {
-        height: 50px;
     }
 
     /* Footer Config */
@@ -190,8 +186,8 @@
         margin-bottom: 20px;
     }
 
-    .partners-logos img {
-        height: 40px;
+    .partners-group {
+        height: 50px;
     }
 
     /* Footer Config */
@@ -256,8 +252,8 @@
         margin-bottom: 15px;
     }
 
-    .partners-logos img {
-        height: 25px;
+    .partners-group {
+        height: 40px;
     }
 
     /* Footer Config */
@@ -295,6 +291,6 @@
 @media (max-width: 420px) {
     /* Main Config */
     .partners-logos img {
-        height: 15px;
+        height: 30px;
     }
 }
