@@ -6,6 +6,11 @@
         width: 585.1428571428571px;
         height: 346.4285714285714px;
     }
+
+    /* Footer Config */
+    .footer-container-info {
+        width: 80%;
+    }
 }
 
 @media (max-width: 1330px) {
@@ -129,7 +134,7 @@
 
     .horario {
         text-align: center;
-        width: 50%;
+        width: 100%;
     }
 
     .horario h4 {
@@ -201,6 +206,10 @@
 
     .footer-container h3 {
         font-size: 1.3em;
+    }
+
+    .horario {
+        width: 100%;
     }
 }
 
