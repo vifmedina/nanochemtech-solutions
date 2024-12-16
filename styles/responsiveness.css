@@ -68,12 +68,12 @@
 
     .main-container-info img {
         width: 400px;
-        height: 200px;
+        height: 224px;
     }
 
     .info {
         width: 376px;
-        height: 176px;
+        height: 200px;
     }
 
     .info h4 {
@@ -167,8 +167,16 @@
         margin-bottom: 40px;
     }
 
+    .main-container-info {
+        width: 100%;
+    }
+
     .main-container-info img {
         margin-bottom: 30px;
+    }
+
+    .info {
+        height: 200px;
     }
 
     #medium {
@@ -241,12 +249,13 @@
     }
 
     .main-container-info img {
-        width: 374px;
-        height: 187px;
+        width: 360px;
+        height: 210px;
     }
 
     .info {
-        width: 350px;
+        width: 360px;
+        height: 200px;
     }
 
     .info h4 {
@@ -275,6 +284,14 @@
 
     .partners-group img {
         width: 170px;
+    }
+
+    #team-adjustment-one {
+        height: 520px;
+    }
+
+    #team-adjustment-two {
+        height: 550px;
     }
 
     /* Footer Config */
